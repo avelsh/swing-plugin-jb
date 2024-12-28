@@ -8,19 +8,19 @@ The task was:
 
 2) [required] While the mouse cursor is outside the window, nothing happens. When the cursor enters the window, a primitive object (let it be a meme of your choice) appears, disappears, and follows the cursor based on the following rules:
 
-2.1) Suppose the cursor moves from right to left and at some point enters the window from the right side. Then, at the right edge of the window, the meme, scaled down to a quarter of its original size, appears exactly in the point where the cursor crossed the window border.
-
-2.2) The meme should gradually increase to its full size as the cursor moves left. For this stage, you can ignore vertical mouse movement.
-
-2.3) The resizing should be proportional to the mouse movement. It should stop when the cursor stops, scale slowly with slow movement, and quickly with fast movement.
-
-2.4) If, during the resizing, the mouse changes its horizontal direction, the meme should start shrinking back to its minimum size (one-quarter of the original).
-
-2.5) The meme disappears as soon as the mouse leaves the window.
-
-2.6) If the meme reaches its full size due to the corresponding mouse movement, the resizing stops, and the meme simply follows the mouse within the window.
-
-2.7) The described behavior should work no matter which side the cursor enters the window from. For example, if the cursor enters from the top, the meme should appear at the top edge of the window and increase in size as the mouse moves downward. The same logic applies for other directions.
+    2.1) Suppose the cursor moves from right to left and at some point enters the window from the right side. Then, at the right edge of the window, the meme, scaled down to a quarter of its original size, appears exactly in the point where the cursor crossed the window border.
+  
+    2.2) The meme should gradually increase to its full size as the cursor moves left. For this stage, you can ignore vertical mouse movement.
+    
+    2.3) The resizing should be proportional to the mouse movement. It should stop when the cursor stops, scale slowly with slow movement, and quickly with fast movement.
+    
+    2.4) If, during the resizing, the mouse changes its horizontal direction, the meme should start shrinking back to its minimum size (one-quarter of the original).
+    
+    2.5) The meme disappears as soon as the mouse leaves the window.
+    
+    2.6) If the meme reaches its full size due to the corresponding mouse movement, the resizing stops, and the meme simply follows the mouse within the window.
+    
+    2.7) The described behavior should work no matter which side the cursor enters the window from. For example, if the cursor enters from the top, the meme should appear at the top edge of the window and increase in size as the mouse moves downward. The same logic applies for other directions.
 
 3) [optional] Wrap the program into an IntelliJ IDE plugin (see public IDE and intellij-gradle plugin documentation) - your plugin must have an action that creates the window that works as described above.
 
@@ -35,7 +35,7 @@ The task was:
 2. Run plugin
 3. In the opened Sandbox IDE open some project or create a new one
 4. Use the shortcut key ("ctrl" + "+" + "-") to activate the plugin
-5. Enjoy the plugin
+5. Enjoy
 
 -----------------------------------------------------
 
